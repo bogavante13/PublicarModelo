@@ -9,7 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1DMa4YU1RZGnIcw1XdzNk6N57uhHUDSUv'
+#Ojo con la ruta
+export_file_url = 'https://drive.google.com/uc?id=1DMa4YU1RZGnIcw1XdzNk6N57uhHUDSUv&export=download'
 export_file_name = 'modeloosos.pkl'
 
 #Tiene el arreglo de clases
